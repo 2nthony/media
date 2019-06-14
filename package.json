@@ -2,6 +2,9 @@
   "name": "@evillt/media",
   "version": "0.0.0",
   "repository": "https://github.com/evillt/media.git",
+  "files": [
+    "projects"
+  ],
   "publishConfig": {
     "access": "public"
   },
