@@ -1,0 +1,9 @@
+{
+  "name": "@evillt/media",
+  "version": "0.0.0",
+  "repository": "https://github.com/evillt/media.git",
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "evillt <ijoec123@gmail.com>"
+}
