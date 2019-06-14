@@ -1,0 +1,12 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/node:latest
+    branches:
+      - master
+    steps:
+      - checkout
+      - run:
+          name: release
+          command: npx semantic-release
