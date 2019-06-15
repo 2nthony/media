@@ -2,6 +2,7 @@ module.exports = {
   plugins: [
     [
       '@semantic-release/commit-analyzer', {
+        preset: 'angular',
         releaseRules: [
           {
             type: 'style',
