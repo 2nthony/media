@@ -8,10 +8,10 @@ module.exports = {
             release: 'patch'
           }
         ]
-      },
-      '@semantic-release/release-notes-generator',
-      '@semantic-release/github',
-      '@semantic-release/npm'
-    ]
+      }
+    ],
+    '@semantic-release/release-notes-generator',
+    '@semantic-release/github',
+    '@semantic-release/npm'
   ]
 }
