@@ -4,7 +4,7 @@ module.exports = {
       preset: 'angular',
       releaseRules: [
         {
-          type: 'style',
+          type: 'update',
           release: 'patch'
         }
       ]
@@ -12,7 +12,7 @@ module.exports = {
     ['@semantic-release/release-notes-generator', {
       preset: 'angular',
       noteKeywords: [
-        'style'
+        'update'
       ]
     }],
     '@semantic-release/github',
